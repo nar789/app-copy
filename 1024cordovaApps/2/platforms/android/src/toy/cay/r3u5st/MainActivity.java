@@ -17,7 +17,7 @@
        under the License.
  */
 
-package rtroy.de0ps;
+package toy.cay.r3u5st;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

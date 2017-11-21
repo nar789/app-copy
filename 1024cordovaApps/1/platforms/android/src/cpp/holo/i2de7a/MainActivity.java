@@ -17,7 +17,7 @@
        under the License.
  */
 
-package rucas.cd1uk;
+package cpp.holo.i2de7a;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
