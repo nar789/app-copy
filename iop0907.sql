@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE IF NOT EXISTS `ref` (
-  `no` int(11) NOT NULL,
+  `no` int(11) NOT NULL primary key auto_increment,
   `imgurl` varchar(255) DEFAULT NULL,
   `url` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -41,7 +41,12 @@ INSERT INTO `ref` (`no`, `imgurl`, `url`) VALUES
 (2, 'http://iop0907.cafe24.com/ref/img/1508818540750002.GIF', 'http://me2.do/5zBylG9l'),
 (3, 'http://iop0907.cafe24.com/ref/img/1508818550936542.GIF', 'http://me2.do/GpvVfX45'),
 (4, 'http://iop0907.cafe24.com/ref/img/1508818559692552.PNG', 'http://me2.do/GsdtPSoe'),
-(5, 'http://iop0907.cafe24.com/ref/img/1508818572473012.GIF', 'http://me2.do/GQFbNo7W');
+(5, 'http://iop0907.cafe24.com/ref/img/1508818559692552.PNG', 'http://me2.do/GsdtPSoe'),
+(6, 'http://iop0907.cafe24.com/ref/img/1508818559692552.PNG', 'http://me2.do/GsdtPSoe'),
+(7, 'http://iop0907.cafe24.com/ref/img/1508818559692552.PNG', 'http://me2.do/GsdtPSoe'),
+(8, 'http://iop0907.cafe24.com/ref/img/1508818559692552.PNG', 'http://me2.do/GsdtPSoe'),
+(9, 'http://iop0907.cafe24.com/ref/img/1508818559692552.PNG', 'http://me2.do/GsdtPSoe'),
+(10, 'http://iop0907.cafe24.com/ref/img/1508818572473012.GIF', 'http://me2.do/GQFbNo7W');
 
 --
 -- 덤프된 테이블의 인덱스
